@@ -7,7 +7,7 @@ Training
 To train the models, run the following commands in the terminal:
 
 Training the Ridge Regression Model:
-python Ridge_Regression.py
+```python Ridge_Regression.py
 
 Training the Random Forest Model:
 python Random_Forest.py
