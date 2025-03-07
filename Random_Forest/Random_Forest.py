@@ -9,8 +9,8 @@ import os
 
 MODEL_CHECKPOINT = "random_forest_checkpoint.pkl"
 
-df_rna = pd.read_hdf('train_cite_inputs.h5', start= 0, stop= 10000)
-df_y = pd.read_hdf('train_cite_targets.h5', start= 0, stop= 10000)
+df_rna = pd.read_hdf('train_cite_inputs.h5')
+df_y = pd.read_hdf('train_cite_targets.h5')
 
 # Select high variance features
 variances = df_rna.var().sort_values(ascending=False)
