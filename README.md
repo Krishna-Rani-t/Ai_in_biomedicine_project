@@ -3,12 +3,12 @@ Project Overview
 This project focuses on predicting protein expression from RNA data using a variety of machine learning (ML) and deep learning (DL) models. The models aim to map gene expression levels to corresponding protein levels by training on single-cell multiomics data. The dataset is taken from https://www.kaggle.com/competitions/open-problems-multimodal/overview
 
 ## Requirements
-python
-numpy
-pandas
-pytables
-h5py
-tables
+python,
+numpy,
+pandas,
+pytables,
+h5py,
+tables,
 pytorch
 
 To run scgpt model https://github.com/bowang-lab/scGPT/tree/f6097112fe5175cd4e221890ed2e2b1815f54010 this needs to be cloned it is the original scgpt model it also cotains the pretrained weights.
