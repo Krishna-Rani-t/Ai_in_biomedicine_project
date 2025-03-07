@@ -7,16 +7,26 @@ Training
 To train the models, run the following commands in the terminal:
 
 Training the Ridge Regression Model:
-```python Ridge_Regression.py
+```
+python Ridge_Regression.py
+```
 
 Training the Random Forest Model:
+```
 python Random_Forest.py
+```
 
 Training the Fully Connected Neural Network (FCNN):
+```
 python Neural_network.py
+```
 
 Training the Autoencoder-Based Model:
+```
 python Encoder_Decoder.py
+```
 
 Training the SCGPT + Neural Network Model:
+```
 python rnatoprotein.py
+```
